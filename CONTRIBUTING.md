@@ -34,7 +34,7 @@ Keep pull requests reviewer-friendly:
 - Link the issue being fixed.
 - Describe the behavior change and the validation you ran.
 - Add or update tests when code behavior changes.
-- Keep documentation in sync with commands, environment variables, and API behavior.
+- Keep documentation in sync with commands, environment variables, API behavior, and the in-memory store model documented in [docs/stores.md](docs/stores.md).
 - Avoid unrelated refactors in bounty or bug-fix pull requests.
 
 For code changes, keep or improve test coverage. The campaign expectation is 95 percent coverage for impacted modules.
